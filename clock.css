@@ -29,7 +29,7 @@ header
     height: 350px;
     background-color: rgba(255,255,255,0.5);
     border-radius: 100%;
-    border: 1px solid rgba(0,0,0,0.7);
+    border: 1.5px solid rgba(0,0,0,0.7);
 }
 .num
 {
@@ -61,13 +61,12 @@ header
     height: 100%;
 }
 .hour{padding-top: 20%;}
-.minute{padding-top: 7.5%;}
+.minute{padding-top: 7%;}
 .second{padding-top: 10%;}
 .second-hand,.minute-hand,.hour-hand
 {
     transform-origin:bottom;
     margin: auto;
-    
 }
 .second-hand
 {
@@ -78,7 +77,7 @@ header
 .minute-hand
 {
     background: rgba(0,0,0,0.8);
-    width: 6px;
+    width: 7px;
     height: 150px;
     border-radius:100% 100% 0 0;
 }
